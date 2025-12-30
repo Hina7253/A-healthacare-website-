@@ -1,0 +1,9 @@
+
+{
+  "name": "St. Meridian Medical Center",
+  "description": "A modern, responsive hospital website featuring doctor discovery, appointment booking, and an AI-powered health concierge for patient navigation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
