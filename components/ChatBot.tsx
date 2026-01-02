@@ -127,4 +127,4 @@ import { ChatMessage } from '../types';
   );
 };
 
-
+export default ChatBot;
