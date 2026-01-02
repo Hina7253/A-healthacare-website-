@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { getGeminiResponse } from '../services/geminiService';
 import { ChatMessage } from '../types';
 
-
+ const ChatBot: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
     { role: 'model', text: 'Hello! I am Meridian’s AI Concierge. How can I help you today?' }
